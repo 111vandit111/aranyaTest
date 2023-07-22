@@ -1,0 +1,31 @@
+.container-footer{
+    display: flex;
+    color: var(--color-gray);
+    justify-content: space-evenly;
+    background-color: var(--color-aboutBg);
+}
+.aranya, .FooterMedia,.webLinks{
+    flex: 1;
+    padding: 20px;
+    align-content: center;
+}
+
+.Footheading,.webLinks{
+    font-size: 12px;
+    font-weight: bolder;
+    text-align: center;
+}
+.aranya .details{
+    font-size: 10px;
+}
+
+.FootSocials{
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+    gap: 10px;
+}
+.mediaLink:hover{
+color:lightslategray;
+}
+
